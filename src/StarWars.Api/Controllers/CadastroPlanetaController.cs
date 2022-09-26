@@ -35,7 +35,7 @@ namespace StarWars.Api.Controllers
             return base.ResponseResult(result);
         }
 
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
             var result = await _cadastroPlanetaApplication.BuscaPlanetaPorId(id);
