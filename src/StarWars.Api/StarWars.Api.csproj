@@ -24,9 +24,5 @@
     <ProjectReference Include="..\StarWars.Infra.IoC\StarWars.Infra.IoC.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\Logs\" />
-  </ItemGroup>
-
 
 </Project>
