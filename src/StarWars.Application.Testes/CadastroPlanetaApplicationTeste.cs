@@ -70,6 +70,22 @@ namespace StarWars.Application.Testes
         }
 
         [Fact]
+        public async Task DeveRetornarNuloCasoJaPossuaUmPlanetaComMesmoNome()
+        {
+            //Arrange
+            var planetaDto = new PlanetaDto { Nome = "FAKE"};
+            _planetaRepository.Setup(x => x.ObterPlanetaPorNome(It.IsAny<string>())).ReturnsAsync(CriandoPlanetaFake());
+
+            //Act
+            var result = await _cadastroPlanetaApplication.AddPlaneta(planetaDto);
+
+            //Assert
+            result.Should().BeNull();
+            _mediator.Invocations.Count().Should().Be(1);
+            _mediator.Verify(x => x.PublishEvent(It.Is<ApplicationNotification>(q => q.Value == "Planeta FAKE ja cadastrado na base de dados")));
+        }
+
+        [Fact]
         public async Task DeveRetornarNuloSeOcorrerErroAoSalvarRegistro()
         {
             //Arrange

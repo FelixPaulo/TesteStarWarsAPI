@@ -102,7 +102,7 @@ namespace StarWars.Application.Services
 
         private async Task<bool> PlanetaJaCadastrado(string nome)
         {
-            var planeta = _planetaRepository.ObterPlanetaPorNome(nome);
+            var planeta = await _planetaRepository.ObterPlanetaPorNome(nome);
             if (planeta == null)
                 return false;
 
