@@ -1,0 +1,24 @@
+2022-09-26 16:09:27.946 -03:00 [INF] Iniciando a API
+2022-09-26 16:09:29.329 -03:00 [INF] Now listening on: https://localhost:44315
+2022-09-26 16:09:29.335 -03:00 [INF] Now listening on: http://localhost:11163
+2022-09-26 16:09:29.335 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 16:09:29.336 -03:00 [INF] Hosting environment: Development
+2022-09-26 16:09:29.336 -03:00 [INF] Content root path: C:\Users\paulo.silva\source\repos\StarWars.Api\src\StarWars.Api
+2022-09-26 16:09:36.330 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html  
+2022-09-26 16:09:37.147 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js  
+2022-09-26 16:09:37.156 -03:00 [INF] Request finished in 836.0298ms 200 text/html;charset=utf-8
+2022-09-26 16:09:37.156 -03:00 [INF] Request finished in 7.9374ms 200 application/javascript; charset=utf-8
+2022-09-26 16:09:37.793 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json  
+2022-09-26 16:09:38.251 -03:00 [INF] Request finished in 458.3036ms 200 application/json;charset=utf-8
+2022-09-26 16:15:39.302 -03:00 [INF] Iniciando a API
+2022-09-26 16:15:40.213 -03:00 [INF] Now listening on: https://localhost:44315
+2022-09-26 16:15:40.219 -03:00 [INF] Now listening on: http://localhost:11163
+2022-09-26 16:15:40.219 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 16:15:40.219 -03:00 [INF] Hosting environment: Development
+2022-09-26 16:15:40.219 -03:00 [INF] Content root path: C:\Users\paulo.silva\source\repos\StarWars.Api\TesteStarWarsAPI\src\StarWars.Api
+2022-09-26 16:15:41.559 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html  
+2022-09-26 16:15:42.320 -03:00 [INF] Request finished in 768.8234ms 200 text/html;charset=utf-8
+2022-09-26 16:15:42.421 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js  
+2022-09-26 16:15:42.449 -03:00 [INF] Request finished in 27.1659ms 200 application/javascript; charset=utf-8
+2022-09-26 16:15:43.303 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json  
+2022-09-26 16:15:43.552 -03:00 [INF] Request finished in 250.9142ms 200 application/json;charset=utf-8

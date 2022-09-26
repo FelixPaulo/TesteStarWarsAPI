@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "msVx30Lht+nimPpF8Gmjpa0xfSD7d+opa03hIOY5l5K8ADG9hcclB5NlfAg4iz+CreIOldJBP4UQb5hxIJl8yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulo.silva\\source\\repos\\StarWars.Api\\TesteStarWarsAPI\\src\\StarWars.Domain.Core\\StarWars.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulo.silva\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\paulo.silva\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\paulo.silva\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\paulo.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
