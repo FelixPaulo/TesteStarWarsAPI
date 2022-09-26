@@ -3,9 +3,11 @@
 Teste prático API de cadastro do jogo de Star Wars.
 
 Segue abaixo a url da documentação da api utilizando o swagger
+
 https://localhost:44315/swagger/index.html
 
 É necessario alterar a string de conexão do projeto no aquivo appsettings.json no projeto StarWars.Api, após alterar a string de conexão é só rodar o comando descrito abaixo no Package Manager Console.
+
 Update-Database -StartupProject StarWars.Api -Project StarWars.Infra.Data
 
 Foram feito os testes unitarios da camada de aplicação onde fica a regra de negocio.
